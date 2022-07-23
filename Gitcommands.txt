@@ -24,5 +24,16 @@ git checkout <commit's number> index.html
 git reset HEAD index.html
 
 
+/* transfer files to online repository
+
+git remote add origin <repository URL>
+
+
+git push -u origin master
+
+/* Close a online repository
+
+git clone <repository URL>
+
 
 
