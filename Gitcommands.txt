@@ -1,0 +1,28 @@
+/* to configure the git on windows *
+
+git config --global user.name "Your Name"
+
+git config --global user.email "sharma.ajay0608@outlook.com"
+
+/* to list the configure */
+
+git config --list
+
+/* First mount the folder to git /*
+git init
+
+git status
+git add .
+git commit -m "first commit"
+git log --oneline
+
+
+/*Checking out a file from an earlier commit */
+git checkout <commit's number> index.html
+
+/* Resetting the Git repository */
+git reset HEAD index.html
+
+
+
+
